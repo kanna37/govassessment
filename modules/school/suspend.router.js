@@ -5,7 +5,7 @@ var db = require('../../db/connect');
 * Method to suspend a student
 */
 
-suspend.post('/api/suspend', (req, res) => {
+suspend.post('/', (req, res) => {
 	var body = req.body;
 	var query = `UPDATE class set status = 'S' WHERE  student = '${body.student}'`;
 	db.query(query, function (error, results, fields) {

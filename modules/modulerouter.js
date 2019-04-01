@@ -5,5 +5,5 @@ var suspend = require('./school/suspend.router');
 
 router.use('/commonstudents', commonlist);
 router.use('/register', register);
-router.use('/suspend', register);
+router.use('/suspend', suspend);
 module.exports = router;
