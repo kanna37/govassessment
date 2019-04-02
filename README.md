@@ -20,3 +20,9 @@ npm start
 
 npm run test
 
+6. Developed API's
+
+http://localhost:4000/api/commonstudents?teacher=teacher1@gamil.com
+http://localhost:4000/api/register
+http://localhost:4000/api/suspend
+
